@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIme Zone</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="first">
+        <h1>Time Zone API</h1>
+        <h1>Your Current time Zone</h1>
+        <section class="box">
+          <p>Name of TIme Zone :</p>
+          <div class="sec-line">
+            <p>Lat:</p>
+            <p>Long:</p>
+          </div>
+          <p>Offset STD :</p>
+          <p>Offset STD Seconds :</p>
+          <p>Offset DST :</p>
+          <p>Offset DST Seconds :</p>
+          <p>Country :</p>
+          <p>Postcode :</p>
+          <p>City :</p>
+        </section>
+      </div>
+      <div class="second">
+        <h1>Enter Address</h1>
+        <input type="text" id="add" name="add" />
+        <button onclick="getGeoLoc()">Search</button>
+        <section class="box curr"></section>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
